@@ -1,0 +1,17 @@
+langchain
+langchain-core
+langchain_community
+langchain_experimental
+langchain_huggingface
+
+langgraph
+langchain-google-genai
+google-generativeai
+
+langchain-groq
+
+python-dotenv
+
+ipykernel
+
+streamlit

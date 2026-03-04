@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Environment files
+.env
+.env.*
+*.env
+
+# Python virtual environments
+venv/
+.venv/
+ENV/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Images and outputs
+images/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Logs
+*.log
+
+# System files
+*.swp
+*.swo
+
+# Ignore markdown output if generated
+*.md
+
+# Ignore requirements lock files
+poetry.lock
+Pipfile.lock
+
+# Ignore research cache or temp files
+*.tmp
+*.bak
+
+# Ignore notebook output files
+*.nbconvert.ipynb
