@@ -112,48 +112,6 @@ npm run dev
 
 Frontend will be available at http://localhost:3000
 
-## 📦 Deployment
-
-### Backend (Render)
-
-1. Push your code to GitHub
-2. Go to [Render Dashboard](https://dashboard.render.com/)
-3. Click "New +" → "Web Service"
-4. Connect your GitHub repository
-5. Render will auto-detect `backend/render.yaml`
-6. Add environment variables:
-   - `GOOGLE_API_KEY`
-   - `TAVILY_API_KEY`
-7. Deploy!
-
-Your backend will be available at: `https://your-app.onrender.com`
-
-### Frontend (Netlify)
-
-1. Build the frontend:
-```bash
-cd frontend
-npm run build
-```
-
-2. Deploy to Netlify:
-
-**Option A: Netlify CLI**
-```bash
-npm install -g netlify-cli
-netlify login
-netlify deploy --prod
-```
-
-**Option B: Git Deploy**
-- Connect your GitHub repository to Netlify
-- Set build command: `npm run build`
-- Set publish directory: `dist`
-- Add environment variables:
-  - `VITE_API_URL`: Your Render backend URL
-  - `VITE_WS_URL`: Your Render WebSocket URL (wss://)
-
-Your frontend will be available at: `https://your-app.netlify.app`
 
 ## 🔑 API Endpoints
 
