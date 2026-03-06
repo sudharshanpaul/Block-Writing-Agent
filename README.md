@@ -168,10 +168,6 @@ Frontend will be available at http://localhost:3000
 - "State of AI in 2026"
 - "Microservices Architecture Patterns"
 
-## 📄 License
-
-MIT
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
