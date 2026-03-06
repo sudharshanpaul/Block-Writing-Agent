@@ -11,13 +11,15 @@ __pycache__/
 
 # Environment files
 .env
-.env.*
-*.env
+.env.example
+.env.local
+.env.*.local
 
 # Python virtual environments
 venv/
 .venv/
 ENV/
+env/
 
 # macOS
 .DS_Store
@@ -26,23 +28,27 @@ ENV/
 Thumbs.db
 Desktop.ini
 
-# Images and outputs
-images/
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.svg
+# Backend
+backend/images/
+backend/history/
+backend/*.log
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env.local
 
 # Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
 # System files
 *.swp
 *.swo
-
-# Ignore markdown output if generated
-*.md
 
 # Ignore requirements lock files
 poetry.lock
@@ -52,5 +58,8 @@ Pipfile.lock
 *.tmp
 *.bak
 
-# Ignore notebook output files
-*.nbconvert.ipynb
+# Generated markdown files (keep examples)
+# Uncomment if you want to ignore all markdown except README files
+# *.md
+# !README.md
+# !PROJECT_README.md
